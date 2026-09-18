@@ -1,0 +1,568 @@
+{
+  "meta": {
+    "product": "Hackathon Forensics",
+    "version": "0.1.0",
+    "research_date": "2026-09-16",
+    "disclaimer": "Archetype shares are EST. from winners/featured samples, not full corpus counts.",
+    "source_brief": "hackathon-spy-research-brief.md"
+  },
+  "target_hackathon": {
+    "id": "nebius-nvidia-2026",
+    "name": "Nebius × NVIDIA Global AI Hackathon",
+    "deadline": "2026-10-30T10:00:00-07:00",
+    "participants_approx": 6379,
+    "prize_pool_usd": 50000,
+    "url": "https://nebiusglobalaihackathon.devpost.com/",
+    "tracks": [
+      "Coding & Agentic Engineering",
+      "Best Apps & Agents",
+      "Personal AI",
+      "Physical AI"
+    ],
+    "requirements": "Nebius Token Factory or AI Cloud + ≥1 NVIDIA open model (Nemotron / GR00T / Cosmos / Sonic etc.)"
+  },
+  "events": [
+    {
+      "id": "bolt-wlh-2025",
+      "name": "World’s Largest Hackathon (Bolt)",
+      "when": "May 30 – Jun 30, 2025",
+      "participants": 128300,
+      "prize_pool_usd": 1037500,
+      "gallery_url": "https://worldslargesthackathon.devpost.com/project-gallery",
+      "winners_url": "https://bolt.new/blog/2025-bolt-hackathon-winners",
+      "event_url": "https://worldslargesthackathon.devpost.com/",
+      "stack_notes": "Bolt.new, AWS, Netlify, Supabase, ElevenLabs, Tavus",
+      "projects": [
+        {
+          "name": "Tailored Labs",
+          "place": "Grand Prize",
+          "one_liner": "NL commands → AI video timeline editor; auto-cuts filler",
+          "url": "https://devpost.com/software/civilink",
+          "archetype_hint": "production_tool"
+        },
+        {
+          "name": "Weight Coach",
+          "place": "2nd",
+          "one_liner": "Meal planner + grocery camera scan + voice cooking assistant",
+          "url": "https://devpost.com/software/weight-coach",
+          "archetype_hint": "food_nutrition"
+        },
+        {
+          "name": "KeyHaven",
+          "place": "3rd",
+          "one_liner": "Encrypted API key store/rotate/monitor + usage alerts",
+          "url": "https://devpost.com/software/keyhaven",
+          "archetype_hint": "devtools_security"
+        },
+        {
+          "name": "Klinva",
+          "place": "4th",
+          "one_liner": "Vertical AI CRM SaaS for commercial cleaning companies",
+          "url": "https://devpost.com/software/klinva",
+          "archetype_hint": "vertical_saas"
+        },
+        {
+          "name": "Ecobolt",
+          "place": "5th",
+          "one_liner": "IoT monitoring for agricultural environments",
+          "url": null,
+          "archetype_hint": "eco_iot"
+        },
+        {
+          "name": "CallVance",
+          "place": "6th",
+          "one_liner": "AI voice calls to confirm appointments, cut no-shows",
+          "url": "https://devpost.com/software/callvance",
+          "archetype_hint": "voice_ops"
+        },
+        {
+          "name": "ModelMash",
+          "place": "7th",
+          "one_liner": "Test many LLMs against custom prompts; pick best model",
+          "url": null,
+          "archetype_hint": "model_eval"
+        },
+        {
+          "name": "HealthPlan AI",
+          "place": "10th",
+          "one_liner": "Voice agent for US federal health insurance marketplace",
+          "url": null,
+          "archetype_hint": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "chrome-ai-2025",
+      "name": "Google Chrome Built-in AI Challenge 2025",
+      "when": "Sep 9 – Oct 31, 2025",
+      "participants": 14051,
+      "submissions_approx": 1300,
+      "prize_pool_usd": 70000,
+      "gallery_url": "https://googlechromeai2025.devpost.com/project-gallery",
+      "winners_url": "https://developer.chrome.com/blog/ai-challenge-winners-2025",
+      "event_url": "https://googlechromeai2025.devpost.com/",
+      "stack_notes": "Chrome Built-in AI / Gemini Nano on-device; optional Firebase hybrid",
+      "projects": [
+        {
+          "name": "Nutshell",
+          "place": "Most Helpful — Extension",
+          "one_liner": "Hands-free browsing via head/mouth for motor disabilities",
+          "url": null,
+          "archetype_hint": "accessibility"
+        },
+        {
+          "name": "AAC Board AI",
+          "place": "Most Helpful — Web",
+          "one_liner": "Local-first AAC board; proofread/rephrase/translate offline",
+          "url": null,
+          "archetype_hint": "accessibility"
+        },
+        {
+          "name": "Phonaify",
+          "place": "Best Multimodal — Ext",
+          "one_liner": "Real-time English pronunciation error detection",
+          "url": null,
+          "archetype_hint": "accessibility"
+        },
+        {
+          "name": "BrowseBack",
+          "place": "HM",
+          "one_liner": "Photographic memory for browser; private content search",
+          "url": null,
+          "archetype_hint": "personal_memory"
+        },
+        {
+          "name": "Marionette",
+          "place": "HM",
+          "one_liner": "On-device multimodal agent automating browser interactions",
+          "url": null,
+          "archetype_hint": "agent_browser"
+        },
+        {
+          "name": "The Turing Werewolf",
+          "place": "HM",
+          "one_liner": "Solo Werewolf; each NPC is local Prompt API that debates",
+          "url": null,
+          "archetype_hint": "playful_local"
+        }
+      ]
+    },
+    {
+      "id": "openai-open-model-2025",
+      "name": "OpenAI Open Model Hackathon",
+      "when": "Aug 5 – Sep 11, 2025",
+      "participants": 8636,
+      "prize_pool_usd": 30000,
+      "gallery_url": "https://openai2025.devpost.com/project-gallery",
+      "winners_url": "https://openai2025.devpost.com/updates/37529-and-the-winners-are",
+      "event_url": "https://openai2025.devpost.com/",
+      "stack_notes": "gpt-oss, Hugging Face, NVIDIA GR00T/GPUs, Ollama, vLLM",
+      "projects": [
+        {
+          "name": "RoboChef",
+          "place": "Best Overall",
+          "one_liner": "NL cooking → plans steps → NVIDIA Isaac GR00T arm executes",
+          "url": "https://devpost.com/software/robochef-gpt-oss-powered-kitchen-assistant",
+          "archetype_hint": "physical_robotics"
+        },
+        {
+          "name": "A Printer… for Smell",
+          "place": "Best Robotics",
+          "one_liner": "Prompt → scent song recipe → gantry doses oils",
+          "url": null,
+          "archetype_hint": "weird_hardware"
+        },
+        {
+          "name": "Steam Print",
+          "place": "Weirdest Hardware",
+          "one_liner": "Steam Deck → voice gen 3D models → OctoPi printer",
+          "url": null,
+          "archetype_hint": "weird_hardware"
+        },
+        {
+          "name": "Memory Palace",
+          "place": "Best Local Agent + For Humanity",
+          "one_liner": "Offline companion for memory loss; family media → journeys",
+          "url": null,
+          "archetype_hint": "personal_memory"
+        },
+        {
+          "name": "Bota",
+          "place": "Wildcard",
+          "one_liner": "GPT-OSS-20B agent plays Dota 2 1v1 with visible reasoning",
+          "url": null,
+          "archetype_hint": "game_agent"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-genai-2024",
+      "name": "Microsoft Generative AI Hackathon",
+      "when": "Apr 1 – May 6, 2024",
+      "participants": 1182,
+      "prize_pool_usd": 32400,
+      "gallery_url": "https://microsoftgenai.devpost.com/project-gallery",
+      "event_url": "https://microsoftgenai.devpost.com/",
+      "stack_notes": "Azure OpenAI / GPT-4V multimodal",
+      "projects": [
+        {
+          "name": "GARVIS",
+          "place": "Winner",
+          "one_liner": "JARVIS-like multimodal assistant that shows via GPT-4V",
+          "url": "https://devpost.com/software/garvis-kd1eon",
+          "archetype_hint": "generic_chatbot"
+        },
+        {
+          "name": "ModeMixer",
+          "place": "3rd",
+          "one_liner": "Fashion/retail trend mix + tech packs for shop owners",
+          "url": "https://devpost.com/software/modemixer-5kc7s3",
+          "archetype_hint": "content_gen"
+        },
+        {
+          "name": "Generative AI Legal Report Writer",
+          "place": "Featured",
+          "one_liner": "Dictate case + file → detailed legal report",
+          "url": null,
+          "archetype_hint": "rag_legal"
+        },
+        {
+          "name": "AI Clinical Note",
+          "place": "Featured",
+          "one_liner": "Labs + voice + chest X-ray → clinical summarization",
+          "url": null,
+          "archetype_hint": "healthcare"
+        }
+      ]
+    },
+    {
+      "id": "devnetwork-aiml-2025",
+      "name": "DevNetwork [AI + ML] Hackathon 2025",
+      "when": "May 12 – 29, 2025",
+      "participants": 840,
+      "prize_pool_usd": 12500,
+      "gallery_url": "https://developerweek-ai2025-hackathon.devpost.com/project-gallery",
+      "event_url": "https://developerweek-ai2025-hackathon.devpost.com/",
+      "stack_notes": "OpenAI embeddings, Neo4j, Gemini, IoT, on-prem LLMs",
+      "projects": [
+        {
+          "name": "PrimeMedic AI",
+          "place": "Overall Winner",
+          "one_liner": "Multilingual virtual healthcare / appointments",
+          "url": null,
+          "archetype_hint": "healthcare"
+        },
+        {
+          "name": "SAIL",
+          "place": "Featured",
+          "one_liner": "Financial document analysis; talk to data",
+          "url": null,
+          "archetype_hint": "rag_legal"
+        },
+        {
+          "name": "FactCheckAI",
+          "place": "Featured",
+          "one_liner": "Misinformation detection",
+          "url": null,
+          "archetype_hint": "factcheck"
+        },
+        {
+          "name": "RepoPilot",
+          "place": "Featured",
+          "one_liner": "On-prem LLM auto-patches GitHub issues → tested PRs",
+          "url": null,
+          "archetype_hint": "coding_agent"
+        },
+        {
+          "name": "GenAI Legal Assistant",
+          "place": "Featured",
+          "one_liner": "Contract read/explain",
+          "url": null,
+          "archetype_hint": "rag_legal"
+        }
+      ]
+    },
+    {
+      "id": "ai-for-change-2024",
+      "name": "AI for Change Hackathon",
+      "when": "Jun 28 – 30, 2024",
+      "participants": 472,
+      "prize_pool_usd": 36220,
+      "gallery_url": "https://ai-for-change.devpost.com/project-gallery",
+      "event_url": "https://ai-for-change.devpost.com/",
+      "stack_notes": "Social/env impact focus",
+      "projects": [
+        {
+          "name": "Project CoolCity",
+          "place": "Featured",
+          "one_liner": "Env data → cooling strategies + map + chatbot",
+          "url": null,
+          "archetype_hint": "eco_iot"
+        },
+        {
+          "name": "K9 Explorer",
+          "place": "Featured",
+          "one_liner": "Beach cleanup robot for hard-to-reach waste",
+          "url": null,
+          "archetype_hint": "physical_robotics"
+        },
+        {
+          "name": "EnviroInvest",
+          "place": "Featured",
+          "one_liner": "Verify corporate environmental claims",
+          "url": null,
+          "archetype_hint": "factcheck"
+        }
+      ]
+    }
+  ],
+  "archetypes": [
+    {
+      "id": "generic_chatbot",
+      "label": "Generic chatbot / JARVIS / copilot",
+      "tiredness_rank": 1,
+      "est_share_pct": "20–30%",
+      "note": "Most overdone across galleries"
+    },
+    {
+      "id": "healthcare",
+      "label": "Healthcare / clinical / med planning",
+      "tiredness_rank": 2,
+      "est_share_pct": "15–25%",
+      "note": "High volume; rigor rarely matches pitch"
+    },
+    {
+      "id": "rag_legal",
+      "label": "RAG / doc Q&A / legal explainers",
+      "tiredness_rank": 3,
+      "est_share_pct": "10–15%",
+      "note": "Default ‘AI wrapper’ shape"
+    },
+    {
+      "id": "accessibility",
+      "label": "Accessibility / assistive",
+      "tiredness_rank": 4,
+      "est_share_pct": "8–15% of winners",
+      "note": "Crowded but high win-rate when real"
+    },
+    {
+      "id": "food_nutrition",
+      "label": "Food / meal / nutrition",
+      "tiredness_rank": 5,
+      "est_share_pct": "5–10%",
+      "note": null
+    },
+    {
+      "id": "factcheck",
+      "label": "Misinfo / fact-check",
+      "tiredness_rank": 6,
+      "est_share_pct": "5–8%",
+      "note": null
+    },
+    {
+      "id": "eco_iot",
+      "label": "Sustainability / eco IoT",
+      "tiredness_rank": 7,
+      "est_share_pct": "8–12% in impact events",
+      "note": null
+    },
+    {
+      "id": "content_gen",
+      "label": "Content / marketing gen",
+      "tiredness_rank": 8,
+      "est_share_pct": "5–10%",
+      "note": null
+    },
+    {
+      "id": "voice_ops",
+      "label": "Voice agents for ops",
+      "tiredness_rank": 9,
+      "est_share_pct": "3–5%",
+      "note": null
+    },
+    {
+      "id": "devtools_security",
+      "label": "DevTools / secrets / security",
+      "tiredness_rank": 10,
+      "est_share_pct": "3–7%",
+      "note": "KeyHaven-class can still podium"
+    },
+    {
+      "id": "coding_agent",
+      "label": "Coding agents (write/run/test)",
+      "tiredness_rank": 11,
+      "est_share_pct": "rare",
+      "note": "White space if closed-loop in sandboxes"
+    },
+    {
+      "id": "model_eval",
+      "label": "Model / agent eval harnesses",
+      "tiredness_rank": 12,
+      "est_share_pct": "rare",
+      "note": "ModelMash pattern"
+    },
+    {
+      "id": "vertical_saas",
+      "label": "Deep vertical niche SaaS",
+      "tiredness_rank": 13,
+      "est_share_pct": "2–4% of winners",
+      "note": "Klinva pattern — high ROI demos"
+    },
+    {
+      "id": "personal_memory",
+      "label": "Offline / private memory companions",
+      "tiredness_rank": 14,
+      "est_share_pct": "2–5%",
+      "note": "Memory Palace–class; fits Nebius Personal AI"
+    },
+    {
+      "id": "physical_robotics",
+      "label": "Embodied / robotics",
+      "tiredness_rank": 15,
+      "est_share_pct": "1–5% overall",
+      "note": "Dominates when track rewards it (RoboChef)"
+    },
+    {
+      "id": "weird_hardware",
+      "label": "Weird hardware",
+      "tiredness_rank": 16,
+      "est_share_pct": "rare",
+      "note": "OpenAI explicitly rewarded this"
+    },
+    {
+      "id": "meta_hackathon",
+      "label": "Meta: audit/compare hackathons",
+      "tiredness_rank": 17,
+      "est_share_pct": "~0%",
+      "note": "Hackathon Forensics white space"
+    },
+    {
+      "id": "production_tool",
+      "label": "Domain production tool (non-chat UX)",
+      "tiredness_rank": 18,
+      "est_share_pct": "rare among winners",
+      "note": "Tailored Labs grand prize"
+    },
+    {
+      "id": "agent_browser",
+      "label": "Browser automation agents",
+      "tiredness_rank": 19,
+      "est_share_pct": "rare",
+      "note": null
+    },
+    {
+      "id": "playful_local",
+      "label": "Playful on-device agents",
+      "tiredness_rank": 20,
+      "est_share_pct": "rare",
+      "note": null
+    },
+    {
+      "id": "game_agent",
+      "label": "Game-playing agents",
+      "tiredness_rank": 21,
+      "est_share_pct": "rare",
+      "note": null
+    }
+  ],
+  "whitespace_for_target": [
+    {
+      "title": "Hackathon Spy/Auditor (meta)",
+      "fit_tracks": [
+        "Best Apps & Agents"
+      ],
+      "why": "~0% of observed winners; comparative taxonomy is the moat"
+    },
+    {
+      "title": "Physical AI + GR00T/Cosmos + Serverless Jobs",
+      "fit_tracks": [
+        "Physical AI"
+      ],
+      "why": "RoboChef proved robotics can take overall when incentivized"
+    },
+    {
+      "title": "True Personal AI (memory + control + skills)",
+      "fit_tracks": [
+        "Personal AI"
+      ],
+      "why": "Most ‘personal AI’ is chat skin; Memory Palace won on privacy + care"
+    },
+    {
+      "title": "Coding agents with sandbox write/run/test",
+      "fit_tracks": [
+        "Coding & Agentic Engineering"
+      ],
+      "why": "RepoPilot-rare; Token Factory sandboxes are the differentiator"
+    },
+    {
+      "title": "Vertical ops SaaS (Klinva/CallVance)",
+      "fit_tracks": [
+        "Best Apps & Agents"
+      ],
+      "why": "Boring industry + measurable ROI outranks flashy general AI"
+    },
+    {
+      "title": "Model/agent eval & routing harness",
+      "fit_tracks": [
+        "Best Apps & Agents",
+        "Coding & Agentic Engineering"
+      ],
+      "why": "ModelMash+ for Nano vs Super vs Ultra on Nebius"
+    },
+    {
+      "title": "Edge + Nebius hybrid privacy",
+      "fit_tracks": [
+        "Personal AI",
+        "Physical AI"
+      ],
+      "why": "Chrome winners proved offline/privacy; few stitch edge + GPU cloud"
+    },
+    {
+      "title": "Sponsor/organizer cross-hackathon analytics",
+      "fit_tracks": [
+        "Best Apps & Agents"
+      ],
+      "why": "B2B adjacent to Forensics; track saturation scoring"
+    }
+  ],
+  "model_map": {
+    "ingest_text": {
+      "model": "Nemotron 3 Nano / Lightning",
+      "where": "Token Factory",
+      "job": "Normalize titles, tags, descriptions, links"
+    },
+    "ingest_vision": {
+      "model": "Nemotron 3 Nano Omni or Cosmos Reasoner",
+      "where": "Token Factory / AI Cloud",
+      "job": "Classify thumbnails: chat UI / robot / dashboard / hardware"
+    },
+    "cluster": {
+      "model": "Nemotron 3 Super (+ Ultra on edges)",
+      "where": "Token Factory",
+      "job": "Archetype labels + tiredness ranking"
+    },
+    "compare": {
+      "model": "Nemotron 3 Ultra",
+      "where": "Token Factory",
+      "job": "Cross-event narrative with cites"
+    },
+    "brief": {
+      "model": "Nemotron 3 Ultra",
+      "where": "Token Factory",
+      "job": "Target-hackathon one-pager"
+    },
+    "video_polish": {
+      "model": "Cosmos 3 T2I / I2V (4Step)",
+      "where": "Nebius AI Cloud",
+      "job": "Demo B-roll only — not product core"
+    },
+    "credit_order": [
+      "Lightning/Nano text",
+      "Nano Omni vision",
+      "Super cluster",
+      "Ultra brief",
+      "Cosmos gen last"
+    ],
+    "judges_line": "Nemotron does the forensics; Cosmos makes the forensics visible."
+  }
+}
