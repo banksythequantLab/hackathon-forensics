@@ -12,7 +12,7 @@ A multi-step App Router demo with a dark intel/forensics UI:
 
 | Stage | Screen | Behavior |
 |-------|--------|----------|
-| 01 | **Ingest** | Lists 6 seed events, project counts, prize totals, target lock |
+| 01 | **Ingest** | Lists 6 seed events, project counts, progress totals, target lock |
 | 02 | **Cluster** | Tiredness/archetype map; hover/click shows citeable projects |
 | 03 | **Compare** | Side-by-side event columns + Nebius whitespace overlay |
 | 04 | **Brief** | One-pager markdown; **Download .md**; optional Ultra regen |
@@ -80,7 +80,7 @@ Archetype shares are **EST.** from winners/featured samples, not full corpus cou
 2. **Cluster (45s)** — Scroll saturated → whitespace; click *meta_hackathon* / *production_tool*; cite Tailored Labs, Klinva, RoboChef.  
 3. **Compare (45s)** — Scroll columns; highlight Nebius track overlay (Physical AI, Personal AI, Coding agents).  
 4. **Brief (45s)** — Open one-pager; hit **Download .md**; if key present, **Regenerate (Ultra)**.  
-5. **Video (15s)** — Show credit order + judges line; Cosmós stub = polish only.
+5. **Video (15s)** — Show credit order + judges line; Cosmos stub = polish only.
 
 ## Nebius / NVIDIA compliance notes
 
